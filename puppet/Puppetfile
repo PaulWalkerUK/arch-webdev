@@ -1,0 +1,19 @@
+# Configuration for librarian-puppet
+
+forge "https://forgeapi.puppetlabs.com"
+
+mod 'vormetriclabs-set_env', '0.2.1'
+
+mod 'paulwalkeruk-vbox_guest_additions', '>=1.0.0 <2.0.0'
+
+mod 'paulwalkeruk-xorg', '>=1.1.0 <2.0.0'
+
+mod 'paulwalkeruk-lightdm', '>=1.0.0 <2.0.0'
+
+mod 'paulwalkeruk-xfce', '>=1.0.0 <2.0.0'
+
+mod 'saz-locales', '2.5.1'
+
+# mod 'paulwalkeruk-xfce',
+#   :git => 'git://github.com/PaulWalkerUK/puppet-xfce.git'
+#   ##:path => '/vagrant/localmodules/paulwalkeruk-xfce-0.1.0'
