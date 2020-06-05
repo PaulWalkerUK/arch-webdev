@@ -13,8 +13,12 @@ include lightdm
 include xfce
 
 package { 'base-devel': ensure => installed }
-
 package { 'git': ensure => installed }
+package { 'unzip': ensure => installed }
+package { 'nano': ensure => installed }
+package { 'php-intl': ensure => installed }
+package { 'firefox': ensure => installed }
+package { 'composer': ensure => installed }
 
 exec { 'flyway':
         command => 'cd /tmp; git clone https://aur.archlinux.org/flyway.git; cd flyway; makepkg -si --noconfirm',
